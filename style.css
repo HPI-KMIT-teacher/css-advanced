@@ -67,3 +67,33 @@ input:invalid {
 input:valid {
   border-color: #28a745;
 }
+
+/* 2. Таблиці */
+
+.result-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 12px;
+  border-bottom: 2px solid #667eea;
+}
+
+.result-table th,
+.result-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.result-table tr:nth-child(odd) {
+  background: #f8f9fa;
+}
+
+.result-table tr:nth-child(even) {
+  background: #e6eff6;
+}
+
+.result-table tr:first-child {
+  background: #667eea;
+  color: #fff;
+  font-weight: bold;
+}
