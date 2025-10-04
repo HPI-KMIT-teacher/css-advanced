@@ -273,3 +273,43 @@ input:valid {
     transform: translateY(0);
   }
 }
+
+/* 7. Атрибутні і складні селектори */
+.nav-tabs {
+  display: flex;
+  margin: 15px 0;
+  border-bottom: 2px solid #667eea;
+}
+
+.tab-item {
+  padding: 8px 22px;
+  background: #eef;
+  border: none;
+  border-radius: 7px 7px 0 0;
+  color: #667eea;
+  margin-right: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: background 0.24s, color 0.15s;
+}
+.tab-item.active {
+  background: #667eea;
+  color: #fff;
+}
+
+.data-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+}
+.data-table tr:hover td {
+  background: #f8f9fa;
+}
+.data-table tr:hover td:first-child {
+  border-left: 4px solid #667eea;
+}
